@@ -16,3 +16,10 @@ E. GCD
 
 F. Pattern program
 
+create a list of heterogeneous elements
+list with interger and string as one list
+now seperate this list into interger list and string listand after seperation sort the list then display max min and avg elements
+or perform operation on string list find word order or find occurence
+
+TUPLE
+SET

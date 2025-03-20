@@ -46,17 +46,69 @@ def removeword(word, alist):
         remove(word)
     print(alist) """
 
-alist = ["amit", 101, "MCA", "Pune", 45522521]
+
+
+""" alist = ["amit", 101, "MCA", "Pune", 45522521]
 print("Before pop() ", alist)
 
-""" # #given index value will be removed
- alist.pop(4)  """
+ # #given index value will be removed
+#  alist.pop(4)  
 
-""" alist.pop(8)
+# alist.pop(8)
 #+ve index and index out of bound while poping
-# IndexError: pop index out of range """
+# IndexError: pop index out of range 
 
-""" alist.pop(-1)
-#negative indexing pop """
+# alist.pop(-1)
+#negative indexing pop 
 
-print("After pop() ", alist)
+print("After pop() ", alist) """
+
+
+"""DELETE operation
+operator not a function
+deletes the list as well same as drop operation in sql
+
+
+#delete with expression pointing a location
+alist =["Amit", 101, "MITWPU", "PUNE", 101]
+
+print(alist)
+
+# del alist[4]
+# del alist[-1]
+#if the above order is reversed then it will give error of index out of bound
+
+# del alist[2:]
+#+ve index can be passed, negative index can be passed, slicing acan be done, shopping cart example
+print(alist)"""
+
+
+"""Clear API
+same as truncat operation in sql clear the list but list exists
+
+alist=["Amit", 101, "MITWPU", "PUNE", 101]
+print(alist)
+
+alist.clear()
+
+print(alist)
+"""
+
+"""SORTING OF THE LIST
+    sort is for homogeneous elements
+    but reverse can be performed on heterogeneous elements
+
+
+alist=[101,108,106,107,103,109,100,102]
+# alist=["AMIT", "ZAID","BHUPESH","MIHIR","ARTI"]
+# alist=[101,108,106,107,"AMIT", "ZAID","BHUPESH"]    #give error as it would not able to sort heterogeneous data
+
+#if sort in reverse order 
+#this can be done by setting up flags
+
+print(alist)
+alist.sort(reverse=True)        
+
+alist.reverse()         #alist[::-1]
+print(alist)
+"""
