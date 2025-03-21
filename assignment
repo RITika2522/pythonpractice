@@ -21,5 +21,7 @@ list with interger and string as one list
 now seperate this list into interger list and string listand after seperation sort the list then display max min and avg elements
 or perform operation on string list find word order or find occurence
 
+Simliar as above for TUPLE
+seperate two list from the tuple of num and string list then perform operations on it
 TUPLE
-SET
+SET and DICTIONARY
