@@ -25,3 +25,6 @@ Simliar as above for TUPLE
 seperate two list from the tuple of num and string list then perform operations on it
 TUPLE
 SET and DICTIONARY
+
+1.removing the duplicate values and find out there occurences 
+2.print only the word where they occure twice
