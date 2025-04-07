@@ -28,3 +28,5 @@ SET and DICTIONARY
 
 1.removing the duplicate values and find out there occurences 
 2.print only the word where they occure twice
+
+can spilt accept other delimiters?
